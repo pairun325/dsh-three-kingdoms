@@ -1,0 +1,34 @@
+{
+  "name": "dsh-three-kingdoms",
+  "version": "0.1.0",
+  "description": "开着就等：一进游戏自动放《关羽之歌》并在屏幕上浮出四行字。无按钮、无面板、开机自启。",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "game-watcher",
+    "auto-music",
+    "subtitle-overlay",
+    "windows",
+    "powershell"
+  ],
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib/index.js",
+    "helper/watch.ps1",
+    "helper/play.ps1",
+    "helper/play-local.ps1",
+    "helper/show-art.ps1",
+    "install.ps1",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "license": "MIT"
+}

@@ -1,0 +1,4 @@
+# dsh-three-kingdoms bundle patch: 往 profile 图层里插一个《关羽之歌》按钮。
+- insert:
+    - id: three-kingdoms
+      name: 'dsh-three-kingdoms'
